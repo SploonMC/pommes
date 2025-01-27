@@ -9,7 +9,7 @@ pub struct Project {
     pub contributors: Option<Contributors>,
     pub dependencies: Option<Dependencies>,
     #[serde(rename = "dependencyManagement")]
-    pub dependency_management: Option<Dependencies>,
+    pub dependency_management: Option<DependencyManagement>,
     pub description: Option<String>,
     pub developers: Option<Developers>,
     #[serde(rename = "groupId")]
